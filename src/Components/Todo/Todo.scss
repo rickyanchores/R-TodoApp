@@ -1,0 +1,29 @@
+.Todo{
+    background: #141212;
+    list-style: none;
+    li{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1em;
+    }
+    
+    .remove-btn{
+        background: coral;
+        color: whitesmoke;
+        border: none;
+        padding: 1em;
+        margin: 1em;
+        cursor: pointer;
+        font-weight: bolder;
+    }
+    .completed-btn{
+        background: teal;
+        background: rgb(12, 131, 72);
+        color: whitesmoke;
+        border: none;
+        padding: 1em;
+        cursor: pointer;
+        font-weight: bolder;
+    }
+}

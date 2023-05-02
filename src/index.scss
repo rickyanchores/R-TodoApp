@@ -1,7 +1,12 @@
 @import "./App.scss";
-
+@import "./Components/Form/Form.scss";
+@import "./Components/Todo/Todo.scss";
+@import "./Components/TodoList/TodoList.scss";
 body{
   background: black;
   color: whitesmoke;
   font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
